@@ -1,0 +1,38 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>SKF Chatbot</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="chat_window">
+    <div class="top_menu">
+      <div class="title">
+        <img src="https://www.securityknowledgeframework.org/img/logos/logo.svg" width="6%" height="6%" style="float:left; margin-left:3%; margin-top:0%;"
+        /> Security knowledge framework
+      </div>
+    </div>
+    <ul id="foobar" class="messages">
+    <ul id="messages" class="messages">
+
+    </ul>
+  </ul>
+    <div class="bottom_wrapper clearfix">
+      <div class="message_input_wrapper">
+        <form name="ipcForm" onSubmit="JavaScript:sendForm(event)">
+          <input class="message_input" placeholder="Type your message here..." name="question" id="question" />
+      </div>
+      <div class="send_message">
+        <input type="submit" name="submit" class="btn btn-primary btn-lg" />
+      </div>
+      </form>
+    </div>
+  </div>
+  <script src='render.js'></script>
+</body>
+
+</html>
